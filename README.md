@@ -1,8 +1,16 @@
-# React + Vite
+# Proje Hakkında Genel Bilgiler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projenin hızlı render edilmesi için vite kullanıldı.Projede hem typescript hem react kullanıldı.Responsive bir yapı oluşturuldu.Dummyjson Fake Data Apisi kullanıldı gerekli verileri almak için. Bu verileri Redux,Redux-Toolkit aracığıyla fetchleyip daha sonrasında createAsyncThunk ile başarılı bekleniyor ve başarısız 3 farklı state yapısı oluşturuldu. Fetchlenen ürünler thunk action bu 3 farklı durumda ne yapılacağını belirtir. Örneğin api çağrısı başarısız olursa state içindeki 'Status' alanı failed değeri alır.
 
-Currently, two official plugins are available:
+# Projeyi Ayağa kaldırmak için
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1-)`https://github.com/Alperenyilan/Frontend-Developer-Assignment-Done.git `
+
+2-) `npm Install`
+
+3-) `npm run dev`
+
+
+# Tech Stack
+
+React,React-Slick,React-router-dom,Vite,Typescript,Redux,Redux-toolkit,dummyjson,Redux Thunk

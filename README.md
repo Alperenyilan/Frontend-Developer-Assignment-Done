@@ -4,7 +4,7 @@ Projenin hızlı render edilmesi için vite kullanıldı.Projede hem typescript 
 
 # Projeyi Ayağa kaldırmak için
 
-1-)`https://github.com/Alperenyilan/Frontend-Developer-Assignment-Done.git `
+1-)`git clone https://github.com/Alperenyilan/Frontend-Developer-Assignment-Done.git `
 
 2-) `npm Install`
 
